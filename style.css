@@ -12,7 +12,10 @@ body {
 }
 
 header.hero {
-  background: linear-gradient(120deg, #2563eb 0%, #60a5fa 100%);
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.9) 0%, rgba(96, 165, 250, 0.9) 100%), url('hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   padding: 60px 0 40px 0;
